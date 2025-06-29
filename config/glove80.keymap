@@ -11,6 +11,7 @@
  */
 /* Include all behavior includes needed */
 /* On demand includes */
+
 #include "keys_nb.h"
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
@@ -749,7 +750,7 @@
 &kp TAB               &kp Q                          &kp W                         &kp F                           &kp P                           &kp B                                                                                                                                           &kp J   &kp L                            &kp U                            &kp Y                          &kp SEMI                        &kp BSLH
 &kp ESC               &HRM_left_pinky_v1_TKZ LGUI A  &HRM_left_ring_v1_TKZ LALT R  &HRM_left_middy_v1_TKZ LCTRL S  &HRM_left_index_v1_TKZ LSHFT T  &kp G                                                                                                                                           &kp M   &HRM_right_index_v1_TKZ RSHFT N  &HRM_right_middy_v1_TKZ RCTRL E  &HRM_right_ring_v1_TKZ LALT I  &HRM_right_pinky_v1_TKZ LGUI O  &kp SQT
 &kp GRAVE             &kp Z                          &kp X                         &kp C                           &kp D                           &kp V   &CAPSWord_v1_TKZ LSHFT MACRO_PLACEHOLDER  &kp LCTRL  &lower    &kp LGUI  &kp RCTRL            &CAPSWord_v1_TKZ RSHFT MACRO_PLACEHOLDER  &kp K   &kp H                            &kp COMMA                        &kp DOT                        &kp FSLH                        &kp PG_UP
-&magic LAYER_Magic 0  &kp HOME                       &kp END                       &kp LEFT_BRACKET                &kp RIGHT                               &thumb_v2_TKZ 3 SPACE                     &kp DEL    &kp LALT  &kp RALT  &thumb_v2_TKZ 7 RET  &space_v3_TKZ 4 BSPC                              &kp UP                           &kp DOWN                         &kp LBKT                       &kp RBKT                        &kp PG_DN
+&magic LAYER_Magic 0  &kp HOME                       &kp END                       &kp NB_LEFT_BRACKET             &kp NB_RIGHT_BRACKET                    &thumb_v2_TKZ 3 SPACE                     &kp DEL    &kp LALT  &kp RALT  &thumb_v2_TKZ 7 RET  &space_v3_TKZ 4 BSPC                              &kp UP                           &kp DOWN                         &kp LBKT                       &kp RBKT                        &kp PG_DN
             >;
         };
 
@@ -788,12 +789,12 @@
 
         layer_Symbol {
             bindings = <
-&none                &none      &none      &none      &none                                                                                 &none      &none        &none      &none     &none
-&kp GRAVE            &kp RBKT   &kp LPAR   &kp RPAR   &kp COMMA  &kp DOT                                                         &none      &none      &none        &none      &none     &none
-&kp LBKT             &kp EXCL   &kp LBRC   &kp RBRC   &kp SEMI   &kp QMARK                                                       &kp GRAVE  &sk RSHFT  &sk RCTRL    &sk RALT   &sk RGUI  &none
-&kp HASH             &kp CARET  &kp EQUAL  &kp UNDER  &kp DLLR   &kp STAR                                                        &kp DQT    &kp BSPC   &kp TAB      &kp SPACE  &kp RET   &none
-&kp TILDE            &kp LT     &kp PIPE   &kp MINUS  &kp GT     &kp FSLH   &kp BSLH   &kp DOT    &kp STAR  &none  &none  &none  &kp SQT    &kp DEL    &kp LS(TAB)  &kp INS    &kp ESC   &none
-&symb_dotdot_v1_TKZ  &kp AMPS   &kp SQT    &kp DQT    &kp PLUS              &kp PRCNT  &kp COLON  &kp AT    &none  &none  &none             &none      &none        &none      &none     &none
+&none                &none      &none      &none              &none                                                                                       &none      &none        &none      &none     &none
+&kp GRAVE            &kp RBKT   &kp LPAR   &kp RPAR           &kp COMMA  &kp DOT                                                               &none      &none      &none        &none      &none     &none
+&kp LBKT             &kp EXCL   &kp LBRC   &kp RBRC           &kp SEMI   &kp NB_QUESTION                                                       &kp GRAVE  &sk RSHFT  &sk RCTRL    &sk RALT   &sk RGUI  &none
+&kp HASH             &kp CARET  &kp EQUAL  &kp NB_UNDERSCORE  &kp DLLR   &kp STAR                                                              &kp DQT    &kp BSPC   &kp TAB      &kp SPACE  &kp RET   &none
+&kp TILDE            &kp LT     &kp PIPE   &kp MINUS          &kp GT     &kp FSLH         &kp BSLH   &kp DOT    &kp STAR  &none  &none  &none  &kp SQT    &kp DEL    &kp LS(TAB)  &kp INS    &kp ESC   &none
+&symb_dotdot_v1_TKZ  &kp AMPS   &kp SQT    &kp DQT            &kp PLUS                    &kp PRCNT  &kp COLON  &kp AT    &none  &none  &none             &none      &none        &none      &none     &none
             >;
         };
 
