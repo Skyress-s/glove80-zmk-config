@@ -745,12 +745,12 @@
 
         layer_HRM_WinLinx {
             bindings = <
-&kp F1        &kp F2                         &kp F3                        &kp F4                          &kp F5                                                                                                                                                                                  &kp F6                           &kp F7                           &kp F8                         &kp F9                          &kp F10
-&kp NB_EQUAL  &kp N1                         &kp N2                        &kp N3                          &kp N4                          &kp N5                                                                                                                                          &kp N6  &kp N7                           &kp N8                           &kp N9                         &kp N0                          &none
-&kp TAB       &kp Q                          &kp W                         &kp F                           &kp P                           &kp B                                                                                                                                           &kp J   &kp L                            &kp U                            &kp Y                          &kp NB_SEMICOLON                &kp NB_BSLH
-&kp ESC       &HRM_left_pinky_v1_TKZ LGUI A  &HRM_left_ring_v1_TKZ LALT R  &HRM_left_middy_v1_TKZ LCTRL S  &HRM_left_index_v1_TKZ LSHFT T  &kp G                                                                                                                                           &kp M   &HRM_right_index_v1_TKZ RSHFT N  &HRM_right_middy_v1_TKZ RCTRL E  &HRM_right_ring_v1_TKZ LALT I  &HRM_right_pinky_v1_TKZ LGUI O  &kp NB_APOSTROPHE
-&kp NB_GRAVE  &kp Z                          &kp X                         &kp C                           &kp D                           &kp V   &CAPSWord_v1_TKZ LSHFT MACRO_PLACEHOLDER  &kp LCTRL  &lower    &kp LGUI  &kp RCTRL            &CAPSWord_v1_TKZ RSHFT MACRO_PLACEHOLDER  &kp K   &kp H                            &kp NB_COMMA                     &kp NB_DOT                     &kp NB_FSLH                     &kp PG_UP
-&magic 11 0   &kp DELETE                     &kp NB_LEFT_PARENTHESIS       &kp NB_RIGHT_PARENTHESIS        &kp ENTER                               &thumb_v2_TKZ 3 SPACE                     &kp TAB    &kp LALT  &kp RALT  &thumb_v2_TKZ 7 RET  &space_v3_TKZ 12 BSPC                             &kp NB_COLON                     &kp NB_SEMICOLON                 &kp NB_AE                      &kp NB_O_SLASH                  &kp NB_A_RING
+&kp F1        &kp F2                         &kp F3                        &kp F4                          &kp F5                                                                                                                                                               &kp F6                           &kp F7                           &kp F8                         &kp F9                          &kp F10
+&kp NB_EQUAL  &kp N1                         &kp N2                        &kp N3                          &kp N4                          &kp N5                                                                                                                       &kp N6  &kp N7                           &kp N8                           &kp N9                         &kp N0                          &none
+&kp TAB       &kp Q                          &kp W                         &kp F                           &kp P                           &kp B                                                                                                                        &kp J   &kp L                            &kp U                            &kp Y                          &kp NB_SEMICOLON                &kp NB_BSLH
+&kp ESC       &HRM_left_pinky_v1_TKZ LGUI A  &HRM_left_ring_v1_TKZ LALT R  &HRM_left_middy_v1_TKZ LCTRL S  &HRM_left_index_v1_TKZ LSHFT T  &kp G                                                                                                                        &kp M   &HRM_right_index_v1_TKZ RSHFT N  &HRM_right_middy_v1_TKZ RCTRL E  &HRM_right_ring_v1_TKZ LALT I  &HRM_right_pinky_v1_TKZ LGUI O  &kp NB_APOSTROPHE
+&kp NB_GRAVE  &kp Z                          &kp X                         &kp C                           &kp D                           &kp V   &kp LSHFT              &kp LCTRL  &lower    &kp LGUI  &kp RCTRL            &CAPSWord_v1_TKZ RSHFT MACRO_PLACEHOLDER  &kp K   &kp H                            &kp NB_COMMA                     &kp NB_DOT                     &kp NB_FSLH                     &kp PG_UP
+&magic 11 0   &kp DELETE                     &kp NB_LEFT_PARENTHESIS       &kp NB_RIGHT_PARENTHESIS        &kp ENTER                               &thumb_v2_TKZ 3 SPACE  &kp TAB    &kp LALT  &kp RALT  &thumb_v2_TKZ 7 RET  &space_v3_TKZ 12 BSPC                             &kp NB_COLON                     &kp NB_SEMICOLON                 &kp NB_AE                      &kp NB_O_SLASH                  &kp NB_A_RING
             >;
         };
 
@@ -800,12 +800,12 @@
 
         layer_Gaming {
             bindings = <
-&kp T       &kp N6        &kp N7  &kp N8        &kp N9                                                                                            &kp F1     &kp F2     &kp F3    &kp F4    &kp F5
-&kp M       &kp NUMBER_5  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                                                &kp F6  &kp F7     &kp F8     &kp F9    &kp F10   &kp F11
-&kp I       &kp TAB       &kp Q   &kp W         &kp E         &kp R                                                                       &kp Y   &kp U      &kp I      &kp O     &kp P     &kp F12
-&kp ESCAPE  &kp LSHFT     &kp A   &kp S         &kp D         &kp F                                                                       &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp G       &kp LCTRL     &kp X   &kp C         &kp V         &kp B         &kp LSHFT  &kp LALT   &kp V    &kp ESC   &kp UP    &kp RET    &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp MINUS
-&kp B       &kp LCTRL     &kp Z   &kp X         &kp C                       &kp SPACE  &kp LCTRL  &kp RET  &kp LEFT  &kp DOWN  &kp RIGHT          &kp GRAVE  &kp LBKT   &kp RBKT  &kp BSLH  &kp EQUAL
+&kp T       &kp N6        &kp N7  &kp N8        &kp N9                                                                                            &kp F1     &kp F2     &kp F3      &kp F4    &kp F5
+&kp M       &kp NUMBER_5  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                                                &kp F6  &kp F7     &kp F8     &kp F9      &kp F10   &kp F11
+&kp I       &kp TAB       &kp Q   &kp W         &kp E         &kp R                                                                       &kp Y   &kp U      &kp I      &kp O       &kp P     &kp F12
+&kp ESCAPE  &kp LSHFT     &kp A   &kp S         &kp D         &kp F                                                                       &kp H   &kp J      &kp K      &kp L       &kp SEMI  &kp SQT
+&kp G       &kp LCTRL     &kp X   &kp C         &kp V         &kp B         &kp LSHFT  &kp LALT   &kp V    &kp ESC   &kp UP    &kp RET    &kp N   &kp M      &kp COMMA  &kp INSERT  &kp FSLH  &kp MINUS
+&kp B       &kp LCTRL     &kp Z   &kp X         &kp C                       &kp SPACE  &kp LCTRL  &kp RET  &kp LEFT  &kp DOWN  &kp RIGHT          &kp GRAVE  &kp LBKT   &kp RBKT    &kp BSLH  &kp EQUAL
             >;
         };
 
@@ -877,12 +877,12 @@
 
         Symbol_Simple {
             bindings = <
-&none                &none             &none                    &none                     &none                                                                                                                         &none      &none         &none      &none     &none
-&none                &none             &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS  &none                &none                                                                              &none                 &none      &none         &none      &none     &none
-&none                &kp NB_EXCL       &kp NB_LEFT_BRACE        &kp NB_RIGHT_BRACE        &kp NB_AMPERSAND     &kp NB_QUESTION                                                                    &kp NB_GRAVE          &sk RSHFT  &sk NB_CARET  &sk RALT   &sk RGUI  &none
-&kp NB_HASH          &kp NB_CARET      &kp NB_EQUAL             &kp NB_UNDERSCORE         &kp NB_PIPE          &kp NB_ASTERISK                                                                    &kp NB_DOUBLE_QUOTES  &kp BSPC   &kp TAB       &kp SPACE  &kp RET   &none
-&kp NB_TILDE         &kp NB_LESS_THAN  &kp NB_DOLLAR            &kp NB_MINUS              &kp NB_GREATER_THAN  &kp NB_SLASH     &kp NB_BACKSLASH  &kp NB_DOT    &kp NB_STAR  &none  &none  &none  &kp NB_APOSTROPHE     &kp DEL    &kp LS(TAB)   &kp INS    &kp ESC   &none
-&symb_dotdot_v1_TKZ  &none             &kp NB_LEFT_BRACKET      &kp NB_RIGHT_BRACKET      &kp NB_PLUS                           &kp NB_PERCENT    &kp NB_COLON  &kp NB_AT    &none  &none  &none                        &none      &none         &none      &none     &none
+&none                &none                    &none                &none                 &none                                                                                                                              &none      &none         &none      &none     &none
+&none                &none                    &none                &kp PIPE              &none                     &none                                                                              &none                 &none      &none         &none      &none     &none
+&kp NB_CARET         &kp NB_EXCL              &kp NB_LEFT_BRACE    &kp NB_RIGHT_BRACE    &kp NB_AMPERSAND          &kp NB_QUESTION                                                                    &kp NB_GRAVE          &sk RSHFT  &sk NB_CARET  &sk RALT   &sk RGUI  &none
+&kp NB_HASH          &kp NB_LEFT_PARENTHESIS  &kp NB_EQUAL         &kp NB_UNDERSCORE     &kp NB_RIGHT_PARENTHESIS  &kp NB_ASTERISK                                                                    &kp NB_DOUBLE_QUOTES  &kp BSPC   &kp TAB       &kp SPACE  &kp RET   &none
+&kp NB_TILDE         &kp NB_LESS_THAN         &kp NB_DOLLAR        &kp NB_MINUS          &kp NB_GREATER_THAN       &kp NB_SLASH     &kp NB_BACKSLASH  &kp NB_DOT    &kp NB_STAR  &none  &none  &none  &kp NB_APOSTROPHE     &kp DEL    &kp LS(TAB)   &kp INS    &kp ESC   &none
+&symb_dotdot_v1_TKZ  &none                    &kp NB_LEFT_BRACKET  &kp NB_RIGHT_BRACKET  &kp NB_PLUS                                &kp NB_PERCENT    &kp NB_COLON  &kp NB_AT    &none  &none  &none                        &none      &none         &none      &none     &none
             >;
         };
     };
