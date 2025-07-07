@@ -673,6 +673,15 @@
             flavor = "balanced";
             quick-tap-ms = <300>;
         };
+
+        gaming_ht: gaming_ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "GAMING_HT";
+            bindings = <&to>, <&to>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+        };
     };
 };
 
@@ -731,8 +740,8 @@
 
         combo_gaming_layer_v1_TKZ {
             timeout-ms = <50>;
-            key-positions = <51 68>;
-            bindings = <&tog 5>;
+            key-positions = <66 67>;
+            bindings = <&gaming_ht 5 0>;
         };
     };
 };
