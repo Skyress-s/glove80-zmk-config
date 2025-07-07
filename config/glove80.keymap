@@ -742,6 +742,14 @@
             timeout-ms = <50>;
             key-positions = <66 67>;
             bindings = <&gaming_ht 5 0>;
+            layers = <0 5>;
+        };
+
+        gaming2 {
+            bindings = <&gaming_ht 5 0>;
+            key-positions = <52 69>;
+            timeout-ms = <50>;
+            layers = <0 5>;
         };
     };
 };
