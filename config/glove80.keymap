@@ -655,11 +655,11 @@
         space_v3_TKZ: space_v3_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             bindings = <&mo>, <&kp>;
 
             flavor = "balanced";
-            quick-tap-ms = <150>;
+            quick-tap-ms = <200>;
         };
 
         // thumb_layer_access - TailorKey
@@ -681,7 +681,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <250>;
+            quick-tap-ms = <200>;
             flavor = "balanced";
         };
     };
