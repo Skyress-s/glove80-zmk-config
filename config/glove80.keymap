@@ -759,13 +759,6 @@
             layers = <0 5>;
         };
 
-        gaming2 {
-            bindings = <&gaming_ht 5 0>;
-            key-positions = <52 69>;
-            timeout-ms = <50>;
-            layers = <0 5>;
-        };
-
         colon {
             bindings = <&kp NB_COLON>;
             key-positions = <59 60>;
@@ -779,6 +772,12 @@
             key-positions = <60 61>;
             timeout-ms = <20>;
             require-prior-idle-ms = <110>;
+            layers = <0>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <69 52>;
             layers = <0>;
         };
     };
@@ -797,7 +796,7 @@
 &kp TAB         &kp Q                          &kp W                         &kp F                           &kp P                           &kp B                                                                                                                   &kp J   &kp L                            &kp U                            &kp Y                          &kp NB_SEMICOLON                &kp NB_BSLH
 &kp ESC         &HRM_left_pinky_v1_TKZ LGUI A  &HRM_left_ring_v1_TKZ LALT R  &HRM_left_middy_v1_TKZ LCTRL S  &HRM_left_index_v1_TKZ LSHFT T  &kp G                                                                                                                   &kp M   &HRM_right_index_v1_TKZ RSHFT N  &HRM_right_middy_v1_TKZ RCTRL E  &HRM_right_ring_v1_TKZ LALT I  &HRM_right_pinky_v1_TKZ LGUI O  &kp NB_APOSTROPHE
 &kp LEFT_SHIFT  &kp Z                          &kp X                         &kp C                           &kp D                           &kp V   &gaming_ht 5 0         &gaming_ht 5 0  &kp LEFT_CONTROL  &kp LGUI  &lower               &number_layer 13 SPACE  &kp K   &kp H                            &kp NB_COMMA                     &kp NB_DOT                     &kp NB_FSLH                     &kp PG_UP
-&magic 11 0     &kp DELETE                     &kp INSERT                    &kp HOME                        &kp ENTER                               &thumb_v2_TKZ 3 SPACE  &kp TAB         &gaming_ht 5 0    &kp RALT  &thumb_v2_TKZ 7 RET  &space_v3_TKZ 12 BSPC           &kp NB_COLON                     &kp NB_SEMICOLON                 &kp NB_AE                      &kp NB_O_SLASH                  &kp NB_A_RING
+&magic 11 0     &kp DELETE                     &kp INSERT                    &kp HOME                        &kp ENTER                               &thumb_v2_TKZ 3 SPACE  &kp TAB         &gaming_ht 5 0    &kp RALT  &thumb_v2_TKZ 3 RET  &space_v3_TKZ 12 BSPC           &kp NB_COLON                     &kp NB_SEMICOLON                 &kp NB_AE                      &kp NB_O_SLASH                  &kp NB_A_RING
             >;
         };
 
