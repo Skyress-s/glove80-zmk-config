@@ -846,12 +846,12 @@
 
         layer_Gaming {
             bindings = <
-&kp T       &kp N6        &kp N7  &kp N8        &kp N9                                                                                                 &trans  &trans  &trans  &trans  &trans
-&kp M       &kp NUMBER_5  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                                                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp I       &kp TAB       &kp Q   &kp W         &kp E         &kp R                                                                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LSHFT     &kp A   &kp S         &kp D         &kp F                                                                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp G       &kp LCTRL     &kp X   &kp C         &kp V         &kp B         &gaming_ht 5 0  &kp LALT   &kp V           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp B       &kp LCTRL     &kp Z   &kp L         &kp N                       &kp SPACE       &kp LCTRL  &gaming_ht 5 0  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp T       &kp N6        &kp N7  &kp N8        &kp N9                                                                                                    &trans  &trans  &trans  &trans  &trans
+&kp M       &kp NUMBER_5  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                                                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp I       &kp TAB       &kp Q   &kp W         &kp E         &kp R                                                                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LSHFT     &kp A   &kp S         &kp D         &kp F                                                                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp G       &kp LCTRL     &kp Z   &kp X         &kp C         &kp V         &gaming_ht 5 0  &kp LALT      &kp V           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp B       &kp LCTRL     &kp Z   &kp L         &kp N                       &kp SPACE       &kp LEFT_ALT  &gaming_ht 5 0  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
